@@ -15,6 +15,7 @@ h1{
 
 h1:hover {
     font-style: italic;
+    transition: 0.4s ease;
 }
 
 h2 {
@@ -56,6 +57,8 @@ body {
     justify-content: center;
 }
 
+/* Circle with title */
+
 .circle {
     background: #DCCA8C;
     width: 350px;
@@ -67,13 +70,13 @@ body {
     left: -140px;
 }
 
-
-
 .circle h1 {
     position: absolute;
     top: 124px;
     left: 165px;
 }
+
+/* Bookframes and center content */
 
 .frames {
     display: flex;
@@ -102,6 +105,8 @@ body {
     padding-left: 278px;  
 }
 
+/* Date of event */
+
 .date {
     position: absolute;
     top: 0;
@@ -110,13 +115,14 @@ body {
     margin: auto 0
 }
 
+/* Image for smaller screen */
 .book2 {
     display: none;
 }
 
 
 
-/* Smaller screen */
+/* Smaller screen responsiveness*/
 
 @media only screen and (max-width: 1200px) {
     body {
@@ -159,7 +165,6 @@ body {
        justify-content: center;
        align-content: center;
        align-items: center;
-
     }
 
     .book {
@@ -197,16 +202,11 @@ body {
         top: 640px;
         left: 32px;
         right: 0;
-    
     }
 
     h2 {
         transform: rotate(0deg);
         font-size: 36px;
     }
-
-
-
-
 
   }
