@@ -9,6 +9,6 @@ A poster for a bookmarket in Laugardalshöll.
 
 ## Demo
 
-Go to [Poster](www.surgelink.com) to view a demo of the page\.  
+Go to [Poster](http://bokamarkadur.surge.sh/)) to view a demo of the page\.  
 
 ---
